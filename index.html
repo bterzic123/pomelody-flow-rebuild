@@ -566,7 +566,6 @@ em.g{font-style:normal;background:var(--mark);padding:0 2px}
     <p class="sub">One install from your Abecadło ad, a parent of a newborn and a parent of a toddler. Same screens, same prices. Tap the steps, or tap inside any phone: change a pick or a year of birth, choose a plan, close it.</p>
     <div class="tools">
       <div class="seg" id="theme"><button data-th="dark" class="on">Dark</button><button data-th="light">Light</button></div>
-      <div class="seg" id="lang"><button data-l="en" class="on">English</button><button data-l="pl">Polski</button></div>
       <button class="wt" id="wt" data-walk>▶ 30-second walkthrough</button>
     </div>
     <div class="steps" id="steps">
@@ -937,7 +936,7 @@ renderTrio(); fit(); paintSteps(); addEventListener('resize',fit); addEventListe
 </script>
 <script>
 /* GitHub Pages lets browsers keep this page for 10 minutes; if a newer build is live, reload onto it */
-var BUILD='p1';
+var BUILD='p2';
 fetch(location.pathname+'?cb='+Date.now(),{cache:'no-store'}).then(function(r){ return r.text(); }).then(function(h){
   var m=h.match(/var BUILD='([^']+)'/); if(m && m[1]!==BUILD){ var q=new URLSearchParams(location.search); q.set('v',m[1]); location.replace(location.pathname+'?'+q.toString()); }
 }).catch(function(){});
