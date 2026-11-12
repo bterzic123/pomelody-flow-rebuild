@@ -2,6 +2,7 @@
 
 **Live:** https://bterzic123.github.io/pomelody-flow-rebuild/
 **Prototype only:** https://bterzic123.github.io/pomelody-flow-rebuild/?view=proto
+**Polish version:** https://bterzic123.github.io/pomelody-flow-rebuild-pl/
 
 pomelody asks every family for their child's name, year of birth and what they need, then shows everyone the same "Try pomelody for 7 days for free". This audit rebuilds the first launch so each family sees their own child on the screen they pay on, in pomelody's own design and at its published prices.
 
